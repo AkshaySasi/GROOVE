@@ -1,3 +1,10 @@
+#   #####   #####      #####      #####    ##    ##  ###### 
+#  ##       ##   ##   ##   ##    ##   ##   ##    ##  ##   
+#  ##  ##   ## ##    ##     ##  ##     ##  ##    ##  #####
+#  ##   ##  ##  ##    ##   ##    ##   ##    ##  ##   ##   
+#   #####   ##   ##    #####      #####       ##     ######
+
+
 # GROOVE: A Generative Refinement Framework Using Vision-Language Feedback Loops
 
 ## Overview
