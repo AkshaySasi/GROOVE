@@ -1,10 +1,10 @@
-<div "center">
+<pre>
    $$$$$   $$$$$      $$$$$      $$$$$    $$    $$  $$$$$$ 
   $$       $$   $$   $$   $$    $$   $$   $$    $$  $$   
   $$  $$   $$ $$    $$     $$  $$     $$  $$    $$  $$$$$
   $$   $$  $$  $$    $$   $$    $$   $$    $$  $$   $$   
    $$$$$   $$   $$    $$$$$      $$$$$       $$     $$$$$$
-</div>
+</pre>
 
 # GROOVE: A Generative Refinement Framework Using Vision-Language Feedback Loops
 
