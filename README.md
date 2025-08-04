@@ -1,6 +1,6 @@
 <pre>
    <div align="center">
-    $$$$$   $$$$$      $$$$$      $$$$$    $$    $$  $$$$$$ 
+     $$$$$   $$$$$      $$$$$      $$$$$    $$    $$  $$$$$$ 
   $$       $$   $$   $$   $$    $$   $$   $$    $$  $$   
   $$  $$   $$ $$    $$     $$  $$     $$  $$    $$  $$$$$
   $$   $$  $$  $$    $$   $$    $$   $$    $$  $$   $$   
@@ -54,6 +54,7 @@ graph TD
 ### Prerequisites
 - **Hardware**: NVIDIA GPU with at least 16GB VRAM (e.g., RTX 3090, 4090, or A100).
 - **Software**: Python 3.9 or higher.
+- **OR**: Google Colab T4/L4 GPU
 - **API Key**: Google Gemini API Key for the Refiner Agent.
 
 ### Installation Steps
@@ -71,7 +72,9 @@ graph TD
 
 3. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
+   or
+   !pip install -q transformers diffusers torch accelerate scipy Pillow tqdm google-generativeai (for colab)
    ```
 
 4. **Configure Gemini API Key**:
@@ -81,13 +84,15 @@ graph TD
    - **Local Execution**: Set as an environment variable:
      ```bash
      export GEMINI_API_KEY=your-api-key-pasted-here  # On Windows: set GEMINI_API_KEY=your-api-key-pasted-here
+     or
+     save it to colab secrets
      ```
 
 5. **Run the System**:
    - Place your target image in the root directory as `my_image.jpg`.
    - Execute:
      ```bash
-     python main.py
+     python groove_main.py
      ```
    - Results are saved to the `output/` directory.
 
@@ -105,12 +110,12 @@ If you use GROOVE in your research, please cite:
 
 ```bibtex
 @misc{groove2025,
-  author       = {Your Name, et al.},
+  author       = {Akshay Sasi},
   title        = {GROOVE: A Generative Refinement Framework Using Vision-Language Feedback Loops},
   year         = {2025},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/your-username/GROOVE}}
+  publisher    = {AkshaySasi},
+  journal      = {GROOVE},
+  howpublished = {\url{https://github.com/AkshaySasi/GROOVE}}
 }
 ```
 
